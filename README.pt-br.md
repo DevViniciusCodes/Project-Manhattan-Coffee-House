@@ -1,1 +1,1 @@
-# Projeto Final - Manhattan - Coffee House
+# Projeto - Manhattan - Coffee House
