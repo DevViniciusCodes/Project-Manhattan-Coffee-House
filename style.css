@@ -2,12 +2,44 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* Seção Topo*/
+.topo {
+  background-color: #604829;
+  width: 100%;
+  height: 85px;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px;
+  height: 90px;
+  position: absolute;
+  left: 15%;
+}
+
+.menu_topo {
+  position: absolute;
+  right: 15%;
+  top: 35px;
+}
+
+.link_topo {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: #c4a47c;
+  text-decoration: none;
+  padding: 10px;
+  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.9);
+}
+
 /* Seção Banner */
 /* Seção Informações */
-  /* 1- Contêiner com conteúdo textual */
-  /* 2- Contêiner com imagem */
+/* 1- Contêiner com conteúdo textual */
+/* 2- Contêiner com imagem */
 /* Seção Contatos */
 /* Seção Horários */
 /* Seção Rodapé */
