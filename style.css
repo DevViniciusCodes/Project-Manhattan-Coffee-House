@@ -37,6 +37,29 @@
 }
 
 /* Seção Banner */
+.banner {
+  background-image: url("imgs/parallax-imagem1.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.titulo_banner {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+}
+
+/* Configurando fonte */
+.titulo_banner h1 {
+  color: #fff;
+  font-family: "Fraunces", serif;
+  font-size: 100px; 
+  font-weight: normal;
+}
+
 /* Seção Informações */
 /* 1- Contêiner com conteúdo textual */
 /* 2- Contêiner com imagem */
