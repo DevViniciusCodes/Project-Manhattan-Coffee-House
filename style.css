@@ -263,7 +263,43 @@
   background-color: rgba(172, 172, 172, 0.4);
 }
 
-.lista_horarios li p.texto_amarelo {
+.lista_horarios li p.texto_destaque {
   color: #c4a47c;
 }
 /* Seção Rodapé */
+.rodape {
+  background-color: #000;
+  width: 100%;
+
+  padding: 20px 0;
+  position: relative;
+}
+
+.rodape p {
+  color: #fff;
+  text-align: center;
+
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.rodape p span.texto_destaque {
+  color: #c4a47c;
+}
+
+.link_flutuante {
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  bottom: 80px;
+  right: 50px;
+}
+
+/* BOA PRÁTICA: Garantir que a imagem obedeça o tamanho da caixa do link */
+.link_flutuante img {
+  width: 100%;
+  height: 100%;
+}
