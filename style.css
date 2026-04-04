@@ -130,6 +130,7 @@
 /* Seção Contatos */
 .contatos {
   background-image: url("imgs/parallax-imagem4.png");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -186,4 +187,83 @@
   text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.9);
 }
 /* Seção Horários */
+.horarios {
+  height: 85vh;
+  background-image: url("imgs/cafeteria.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  position: relative;
+}
+
+.subtitulo_horarios {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  text-align: center;
+
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+  margin: 0;
+}
+
+.lista_horarios {
+  position: absolute;
+  bottom: 35%;
+  right: 0;
+  left: 0;
+  width: 768px;
+  margin: 0 auto;
+}
+
+.lista_horarios ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista_horarios li {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.lista_horarios li h3 {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  margin: 0;
+
+  /* A Regra de Ouro: Transforma o bloco em um elemento em linha, 
+     para não empurrar os outros elementos para baixo */
+  display: inline-block;
+}
+
+.lista_horarios li p {
+  color: #acacac;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.lista_horarios li div {
+  position: absolute;
+  left: 80px;
+  right: 120px;
+  top: 50%; /* Como pede a especificação */
+  height: 1px;
+  background-color: rgba(172, 172, 172, 0.4);
+}
+
+.lista_horarios li p.texto_amarelo {
+  color: #c4a47c;
+}
 /* Seção Rodapé */
