@@ -90,8 +90,16 @@
 }
 
 /* 2- Contêiner com imagem */
-.img_paralax {
+/* Separando imgs paralax */
+.img2 {
   background-image: url("imgs/parallax-imagem2.jpg");
+}
+
+.img3 {
+  background-image: url("imgs/parallax-imagem3.jpg");
+}
+
+.img_paralax {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
