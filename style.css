@@ -41,6 +41,8 @@
   background-image: url("imgs/parallax-imagem1.png");
   height: 100vh;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .titulo_banner {
@@ -88,6 +90,35 @@
 }
 
 /* 2- Contêiner com imagem */
+.img_paralax {
+  background-image: url("imgs/parallax-imagem2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  height: 50vh;
+  width: 100%;
+}
+
+.texto_paralax {
+  background-color: #604829;
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.texto_paralax h3 {
+  font-family: "Fraunces", serif;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+}
 /* Seção Contatos */
 /* Seção Horários */
 /* Seção Rodapé */
